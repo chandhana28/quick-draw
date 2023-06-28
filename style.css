@@ -1,0 +1,43 @@
+body{
+    background-color:indianred;
+    font-family:monospace;
+    color:black;
+}
+
+#score{
+    font-size: 20px;
+    float:left;
+    margin-left:30px;
+}
+
+#timer{
+    font-size: 20px;
+    float:right;
+    margin-right:30px;
+}
+
+#sketch_todraw{
+    color:rgb(200, 238, 223);
+}
+
+p{
+    font-size:15;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius:20px;
+    margin-top:150px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
+
+}
